@@ -1,12 +1,8 @@
-const MainProduct = () => {
+const DetailProduct = () => {
     return (
-        <main>
-                <section>
-                    galeria imagenes
-                </section>
-                <section>
-                    <p>Sneakers Company</p>
-                    <h2>Fall Limited Edition Sneakers</h2>
+        <section>
+            <p>Sneakers Company</p>
+                <h2>Fall Limited Edition Sneakers</h2>
                     <p>
                         These low-profile sneakers are your 
                         perfect casual wear companion. Featuring a 
@@ -26,10 +22,9 @@ const MainProduct = () => {
                         </div>
                         <button>Add to cart</button>
                         
-                    </div>
-                </section>
-            </main>
+                   </div>
+        </section>
     );
 };
 
-export default MainProduct;
+export default DetailProduct;

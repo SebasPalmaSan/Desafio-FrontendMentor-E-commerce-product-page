@@ -1,4 +1,4 @@
-import MainProduct from "./components/main/MainProduct";
+import MainProduct from "./components/product/MainProduct";
 import Header from "./components/navbar/Header";
 
 
