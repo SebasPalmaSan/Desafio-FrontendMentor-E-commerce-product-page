@@ -12,7 +12,7 @@ import NavLinkHeader from '@/components/navbar/NavLinkHeader';
 
 const Header = () => {
 
-    const classOpen = "absolute font-bold top-0 left-0 h-full p-8 gap-y-5 bg-white flex flex-col md:flex md:mr-auto md:flex-row md:gap-4 w-2/3 md:static md:p-0";
+    const classOpen = "absolute font-bold top-0 left-0 h-full p-8 gap-y-5 bg-white flex flex-col md:flex md:mr-auto md:flex-row md:gap-4 w-2/3 md:static md:p-0 z-10";
 
     const classClose = "hidden font-bold md:static md:mr-auto md:flex md:h-auto md:flex-row md:gap-4 md:p-0";
 

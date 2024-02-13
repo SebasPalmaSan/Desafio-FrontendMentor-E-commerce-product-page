@@ -1,7 +1,14 @@
-const CartIcon = () => {
+const CartIcon = ({ fill="#69707D", ...props}) => {
   return (
-    <svg width="22" height="20" 
-    xmlns="http://www.w3.org/2000/svg"><path 
+    <svg
+    {...props}
+    fill={fill} 
+    width="22" 
+    height="20" 
+    xmlns="http://www.w3.org/2000/svg"
+    fillRule="nonzero"
+    >
+      <path 
     d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 
     0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 
     1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 
@@ -11,8 +18,8 @@ const CartIcon = () => {
     0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 
     0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 
     0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" 
-    fill="#69707D" fillRule="nonzero"/></svg>
-  )
-}
+    /></svg>
+  );
+};
 
 export default CartIcon
