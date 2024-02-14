@@ -60,15 +60,23 @@ const SlideProduct = ({
                     </button>
                 </div>
             </div>
-            {ARRAY_IMG_SMALL.map((smallImg) => (
-                    <div key={smallImg} className='relative overflow-hidden rounded-md'>
+            {ARRAY_IMG_SMALL.map((smallImg, i) => (
+                    <div 
+                        key={i} 
+                        onClick={() => {setIndex(i)}} 
+                        className='relative overflow-hidden rounded-md cursor-pointer'
+                    >
                         <img 
                             src={smallImg} 
                             alt="" 
                             className='hidden md:block md:rounded-md' 
                         />
-                        <span className='absolute top-0 h-full w-full
-                         hover:bg-[rgba(255,255,255,0.5)]'></span>
+                        <span className={`absolute top-0 h-full w-full
+                         hover:bg-[rgba(255,255,255,0.5)] ${
+                            i === index && 'bg-[rgba(255,255,255,0.5)]'
+                            }`}>
+
+                        </span>
                     </div>
             ))}
         </section>
