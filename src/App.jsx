@@ -1,4 +1,4 @@
-import MainProduct from "./components/product/MainProduct";
+import IndexProduct from "./components/product/IndexProduct";
 import Header from "./components/navbar/Header";
 
 
@@ -7,7 +7,7 @@ const App = () => {
     return (
         <>
             <Header />
-            <MainProduct />
+            <IndexProduct />
         </>
     );
 };

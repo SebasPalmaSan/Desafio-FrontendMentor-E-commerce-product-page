@@ -42,7 +42,8 @@ const SlideProduct = ({
                 <img 
                     src={ARRAY_IMAGES[index]} 
                     alt="" 
-                    className="aspect-[16/13] w-full md:aspect-[16/18] md:rounded-md md:cursor-pointer" 
+                    className="aspect-[16/13] w-full md:aspect-[16/18] md:rounded-md md:cursor-pointer 
+                    xl:aspect-[16/16] 2xl:max-h-[550px]" 
                     onClick={handleOpenModal}
                 />
                 <div 
