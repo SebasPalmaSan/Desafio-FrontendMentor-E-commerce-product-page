@@ -4,10 +4,14 @@ Desafio Frontend Mentor
 https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
 
 Demo: https://ecommerce-react-taildwind.netlify.app/
+![Screenshot 2024-02-29 at 15-52-55 Vite React](https://github.com/SebasPalmaSan/Desafio-FrontendMentor-E-commerce-product-page/assets/93328462/b1ccd492-cc0d-4d0c-8a49-884ed424a920)
 
-![Screenshot 2024-02-19 at 15-52-18 Vite React](https://github.com/SebasPalmaSan/Desafio-FrontendMentor-E-commerce-product-page/assets/93328462/b75d8cea-c603-4dbb-8bed-3a7a9b869410)
 
-![Screenshot 2024-02-19 at 15-52-32 Vite React](https://github.com/SebasPalmaSan/Desafio-FrontendMentor-E-commerce-product-page/assets/93328462/b88a3211-5798-4d6d-b10c-70839e5524d9)
+![Screenshot 2024-02-29 at 15-53-11 Vite React](https://github.com/SebasPalmaSan/Desafio-FrontendMentor-E-commerce-product-page/assets/93328462/e6c0a966-4d51-442b-847a-7e75ce2424a2)
+
+
+![Imagen de WhatsApp 2024-02-29 a las 15 51 55_547e547c](https://github.com/SebasPalmaSan/Desafio-FrontendMentor-E-commerce-product-page/assets/93328462/4b22285e-775d-4f7f-be90-3ef5c2167f2d)
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
