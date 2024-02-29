@@ -1,5 +1,5 @@
-import IndexProduct from "./components/product/IndexProduct";
-import Header from "./components/navbar/Header";
+import IndexProduct from "@/components/product/IndexProduct";
+import Header from "@/components/navbar/Header";
 
 
 

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 
 import PreviousIcon from '@/components/icons/PreviousIcon';
 import NextIcon from '@/components/icons/NextIcon';
@@ -16,9 +16,6 @@ const SlideProduct = ({
 
     const [index, setIndex] = useState(0);
 
-    // useEffect(() => {
-    //     openModal && btnSlider.current.classList.remove('md:hidden');
-    // }, [openModal]);
 
     const handleCkickNext = () => {
         index === ARRAY_IMAGES.length - 1  ? setIndex(0) : setIndex(index + 1);
@@ -42,7 +39,7 @@ const SlideProduct = ({
                 <img 
                     src={ARRAY_IMAGES[index]} 
                     alt="" 
-                    className="aspect-[16/13] w-full md:aspect-[16/18] md:rounded-md md:cursor-pointer 
+                    className="object cover aspect-[16/13] w-full md:aspect-[16/18] md:rounded-md md:cursor-pointer 
                     xl:aspect-[16/16] 2xl:max-h-[550px]" 
                     onClick={handleOpenModal}
                 />
