@@ -29,7 +29,7 @@ const SlideProduct = ({
             {openModal && 
                 <button 
                     onClick={handleCloseModal}
-                    className='md:col-span-4 text-right'
+                    className='md:col-span-4 text-right text-white font-bold'
                 >
                     X
                 </button>
